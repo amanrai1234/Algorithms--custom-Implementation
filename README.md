@@ -16,7 +16,7 @@ Constant Folding: A technique that evaluates constant expressions at compile-tim
 
 Loop Unrolling: Techniques such as copying and pasting the loop body multiple times to reduce control flow overhead.
 
-Constant Propagation: Resolving expressions with constants at compile-time instead of runtime. For example, `const int x = 10; int y = x + 10;` results in the expression for "y" becoming 20.
+Constant Propagation: Resolving expressions with constants at compile-time instead of runtime. For example, const int x = 10; int y = x + 10; results in the expression for "y" becoming 20.
 
 Dead Code Elimination: A compiler optimization technique that involves removing unused code.
 

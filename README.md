@@ -10,13 +10,13 @@ Template metaprogramming allows for compile-time computations. For example, if w
 
 Most C++ headers have inline functions written in them to ensure that everything is evaluated at compile-time, providing seamless integration and a better user experience.
 
-Compiler Optimizations:**
+Compiler Optimizations:
 
 Constant Folding: A technique that evaluates constant expressions at compile-time.
 
 Loop Unrolling: Techniques such as copying and pasting the loop body multiple times to reduce control flow overhead.
 
-Constant Propagation: Resolving expressions with constants at compile-time instead of runtime. For example, const int x = 10; int y = x + 10; results in the expression for "y" becoming 20.
+Constant Propagation: Resolving expressions with constants at compile-time instead of runtime. For example, `const int x = 10; int y = x + 10;` results in the expression for "y" becoming 20.
 
 Dead Code Elimination: A compiler optimization technique that involves removing unused code.
 
